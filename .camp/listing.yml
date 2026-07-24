@@ -1,0 +1,36 @@
+# camp listing manifest (RFC §4.1) — this file is the plugin's listing
+# content on camp-registry.org from Tier 1 up. Update it with ordinary
+# commits; camp ingests and hash-pins it at each tagged release.
+
+name: Jitsi
+summary: Schedule and run Jitsi Meet videoconferences as Moodle course activities.
+description: |
+  mod_jitsi integrates Jitsi Meet videoconferencing directly into Moodle
+  courses. Teachers schedule sessions as standard activities; students join
+  in one click — no app to install, no account required.
+
+  - Activity completion based on time attended, with detailed attendance reports
+  - Moodle profile pictures as avatars and real-time participant list
+  - Guest URLs for users outside Moodle, with optional email invitation
+  - Private 1-on-1 sessions from any coursemate's profile page
+  - Recordings to Google Cloud Storage (GCP/Jibri), YouTube, Dropbox or
+    JaaS (8x8) cloud recordings, published in a Recordings tab
+  - AI summary, quiz and transcription of recordings via Google Vertex AI
+  - Token-based moderation, breakout rooms, polls, virtual backgrounds
+  - Server types: GCP auto-managed, JaaS (8x8), self-hosted or public servers
+
+  Some optional features (attendance report, recording view tracking,
+  usage statistics) require a free mod_jitsi Account at
+  portal.sergiocomeron.com.
+labels:
+  - fully-free
+  - external-account
+category: activity
+screenshots:
+  - path: doc/pix/jitsi-moodle.png
+    caption: Jitsi Meet session running inside a Moodle activity
+  - path: doc/pix/recordings.png
+    caption: Recordings tab with published session recordings
+links:
+  docs: https://sergiocomeron.com/jitsi/docs/
+  issues: https://github.com/SergioComeron/moodle-mod_jitsi/issues

@@ -1,5 +1,7 @@
 # Jitsi Meet Moodle Plugin
 
+[![camp](https://camp-registry.org/badge/mod_jitsi.svg)](https://camp-registry.org/plugin/mod_jitsi.html)
+
 **[Documentation](https://sergiocomeron.com/jitsi/docs/)** — tutorials, configuration guides, and reference for all features.
 
 ## Table of contents
