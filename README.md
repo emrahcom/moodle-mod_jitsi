@@ -1,6 +1,7 @@
 # Jitsi Meet Moodle Plugin
 
 [![camp](https://camp-registry.org/badge/mod_jitsi.svg)](https://camp-registry.org/plugin/mod_jitsi.html)
+[![Packagist](https://img.shields.io/packagist/v/sergiocomeron/moodle-mod_jitsi)](https://packagist.org/packages/sergiocomeron/moodle-mod_jitsi)
 
 **[Documentation](https://sergiocomeron.com/jitsi/docs/)** — tutorials, configuration guides, and reference for all features.
 
@@ -19,7 +20,9 @@
 - [AI Features for Recordings](#ai-features-for-recordings)
 - [Attendance Report](#attendance-report)
 - [Session Usage Statistics](#session-usage-statistics)
+- [Support and security](#support-and-security)
 - [Disclaimer](#disclaimer)
+- [License](#license)
 
 ---
 
@@ -60,6 +63,8 @@ Features available in the plugin:
 * **Session usage statistics** — site-wide aggregated stats (sessions, participants, recordings) with daily breakdown *(requires mod_jitsi Account)*
 
 ## Installation
+
+Requires **Moodle 4.5 or later**.
 
 Install from the [Moodle Marketplace](https://marketplace.moodle.com/plugins/mod_jitsi): download the ZIP and install it from *Site administration → Plugins → Install plugins*, or unzip it into `mod/jitsi`.
 
@@ -643,6 +648,15 @@ Stats are pre-computed nightly by the `aggregate_usage_stats` scheduled task and
 
 Requires a registered mod_jitsi Account.
 
+## Support and security
+
+- **Bug reports and questions**: use [GitHub Issues](https://github.com/SergioComeron/moodle-mod_jitsi/issues).
+- **Security vulnerabilities**: please do **not** open a public issue — report them privately through [GitHub Security](https://github.com/SergioComeron/moodle-mod_jitsi/security) (*Report a vulnerability*).
+
 ## Disclaimer
 
 This plugin is not related to or partnered with 8x8 Inc. nor with "Jitsi as a Service" (JaaS).
+
+## License
+
+Licensed under the [GNU GPL v3](LICENSE.md).
