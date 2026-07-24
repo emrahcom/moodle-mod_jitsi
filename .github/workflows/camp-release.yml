@@ -95,11 +95,11 @@ jobs:
       - name: Open index pull request
         uses: peter-evans/create-pull-request@v8
         with:
-          # CAMP_INDEX_TOKEN must be a CLASSIC personal access token with
-          # the public_repo scope. Fine-grained tokens can't be scoped to
-          # camp-registry, so they push your branch fine and then 403 on
-          # this step — opening the PR against the upstream index.
-          token: ${{ secrets.CAMP_INDEX_TOKEN }}
+          # The template calls for CAMP_INDEX_TOKEN (classic PAT with
+          # public_repo scope; fine-grained tokens 403 on this step). We
+          # reuse PAT_TOKEN: already a classic repo-scoped PAT in this
+          # repository's secrets (bump-version pushes tags with it).
+          token: ${{ secrets.PAT_TOKEN }}
           path: index-repo
           # Everyone publishes from a fork, index maintainers included.
           # Fork camp-registry/camp-index once (keeping it in sync is NOT
