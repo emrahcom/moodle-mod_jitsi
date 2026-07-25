@@ -1,4 +1,19 @@
 # Changelog
+## v5.4.0
+# Added
+
+ * CAMP release pipeline (Tier 2 setup)
+ * Composer-installable plugin (Moodle 5.2+)
+# Changed
+
+ * README requirements, support/security channels, license and Packagist badge
+ * camp-release reuses the existing PAT_TOKEN secret
+ * README installation section (Marketplace ZIP, git, Composer)
+ * vendor-sync check + dependabot targets dev
+ * bump guzzlehttp/guzzle 7.12.1 -> 7.15.1 (vendor synced)
+
+---
+
 ## v5.3.0
 # Added
 
